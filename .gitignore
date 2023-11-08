@@ -8,6 +8,10 @@ __pycache__/
 
 # Distribution / packaging
 .Python
+<<<<<<< HEAD
+=======
+env/
+>>>>>>> 407eed5 (initial commit)
 build/
 develop-eggs/
 dist/
@@ -19,12 +23,18 @@ lib64/
 parts/
 sdist/
 var/
+<<<<<<< HEAD
 wheels/
 share/python-wheels/
 *.egg-info/
 .installed.cfg
 *.egg
 MANIFEST
+=======
+*.egg-info/
+.installed.cfg
+*.egg
+>>>>>>> 407eed5 (initial commit)
 
 # PyInstaller
 #  Usually these files are written by a python script from a template
@@ -39,17 +49,26 @@ pip-delete-this-directory.txt
 # Unit test / coverage reports
 htmlcov/
 .tox/
+<<<<<<< HEAD
 .nox/
+=======
+>>>>>>> 407eed5 (initial commit)
 .coverage
 .coverage.*
 .cache
 nosetests.xml
 coverage.xml
+<<<<<<< HEAD
 *.cover
 *.py,cover
 .hypothesis/
 .pytest_cache/
 cover/
+=======
+*,cover
+.hypothesis/
+.napari_cache
+>>>>>>> 407eed5 (initial commit)
 
 # Translations
 *.mo
@@ -58,6 +77,7 @@ cover/
 # Django stuff:
 *.log
 local_settings.py
+<<<<<<< HEAD
 db.sqlite3
 db.sqlite3-journal
 
@@ -67,10 +87,16 @@ instance/
 
 # Scrapy stuff:
 .scrapy
+=======
+
+# Flask instance folder
+instance/
+>>>>>>> 407eed5 (initial commit)
 
 # Sphinx documentation
 docs/_build/
 
+<<<<<<< HEAD
 # PyBuilder
 .pybuilder/
 target/
@@ -158,3 +184,27 @@ cython_debug/
 #  and can be added to the global gitignore or merged into this file.  For a more nuclear
 #  option (not recommended) you can uncomment the following to ignore the entire idea folder.
 #.idea/
+=======
+# MkDocs documentation
+/site/
+
+# PyBuilder
+target/
+
+# Pycharm and VSCode
+.idea/
+venv/
+.vscode/
+
+# IPython Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# OS
+.DS_Store
+
+# written by setuptools_scm
+**/_version.py
+>>>>>>> 407eed5 (initial commit)
